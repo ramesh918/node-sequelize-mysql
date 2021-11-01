@@ -12,6 +12,19 @@ node with mysql database using sequelize package
 
 ![image](https://user-images.githubusercontent.com/92211837/139633118-4df99ac4-f375-4e22-accc-fe20418beae4.png)
 
+8. setup the datbase, by giving the database details in config file like below
+
+
+![image](https://user-images.githubusercontent.com/92211837/139634175-587e675f-a52c-4656-bc7f-a8b82e4a258b.png)
+
+9. command for creating the database: ```sequelize db:create```
+10. Command for creating  the table(model): ```sequelize model:generate --name User --attributes name:string,email:string,role:string,username:string,password:string```
+11. do the the migration to create the table: ```sequelize db:migrate```
+
+
+
+
+
 
 
 ## concept
