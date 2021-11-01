@@ -1,5 +1,5 @@
 # node-sequelize-mysql
-node wit mysql database using sequelize package
+node with mysql database using sequelize package
 
 ## concept
 1. using the sequlize, sequelize-cli package create a database, table in mysql
